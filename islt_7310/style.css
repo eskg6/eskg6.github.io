@@ -1,11 +1,29 @@
-h1 { color: #00cccc; }
+h1 { color: #00cccc; font-size: x-large; font-style: italic; }
+h3 { color: mediumpurple; font-size: large; }
+p { color: mediumvioletred; }
 
-footer {color: rebeccapurple; font-size: 13px} 
+* { color: mediumaquamarine;}
 
-a:hover{color: limegreen;}
-a:link{color: hotpink;}
-a:focus{color: darkorange;}
-a:visited{color: saddlebrown;}
-a:active{color: mediumslateblue;}
-             a {text-decoration: none;} 
-             a {font-size: 10px;}
+footer p { color: rebeccapurple; font-size: 13px; } 
+
+footer a:link {
+ color: hotpink;
+}
+footer a:visited {
+ color: saddlebrown;
+}
+footer a:hover {
+ color: limegreen;
+ text-decoration: none;
+ font-size: 10px
+}
+footer a:active {
+ color: mediumslateblue;
+ }
+footer a:focus {
+ color: darkorange;
+}
+
+img {
+  float: none;
+}

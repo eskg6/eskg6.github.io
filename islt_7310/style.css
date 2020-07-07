@@ -1,13 +1,37 @@
 body {
-    background-color: lemonchiffon
+    background-color: floralwhite
 }
-h1 { color: #00cccc; font-size: x-large; font-style: italic; border-style: double; background-color: lavenderblush} 
+/*
+
+*****************************************************************************
+
+Title:  Style
+Use:  To allow webpage to have style
+Author:  Erica Suarez
+School/Term:  University of Missouri, Summer Term 2020
+Developed: June 29, 2020
+Tested:  July 6, 2020; Passed on Chrome browser.
+
+******************************************************************************
+
+ */    
+h1 { color: #00cccc; font-size: x-large; font-style: italic; border-style: double; background-color: floralwhite} 
 h3 { color: mediumpurple; font-size: large; }
 p { color: mediumvioletred; }
 
+p {margin: 15px;}
+
 * { color: mediumaquamarine;}
 
-footer {border-top: double;} 
+.right { text-align: right; } 
+.left { text-align: left; }
+.center { text-align: center; }
+.justify { text-align: justify; } 
+
+footer {
+    border-top: double;
+    padding:5px; 
+} 
 
 footer p { color: rebeccapurple; font-size: 13px; } 
 

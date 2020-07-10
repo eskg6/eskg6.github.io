@@ -10,7 +10,7 @@ Use:  To allow webpage to have style
 Author:  Erica Suarez
 School/Term:  University of Missouri, Summer Term 2020
 Developed: June 29, 2020
-Tested:  July 6, 2020; Passed on Chrome browser.
+Tested:  July 10, 2020; Passed on Chrome browser.
 
 ******************************************************************************
 
@@ -21,7 +21,9 @@ p { color: mediumvioletred; }
 
 p {margin: 15px;}
 
-* { color: mediumaquamarine;}
+.tab { margin-left: 50px; }
+
+* { color:  darkslateblue;}
 
 .right { text-align: right; } 
 .left { text-align: left; }

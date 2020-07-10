@@ -1,0 +1,22 @@
+.nav {
+display: block; 
+border: 3px dotted magenta;
+width: 150px;
+list-style-type: none;
+padding: 15px 15px 15px 25px;
+margin-bottom: 5px;
+}
+
+nav>ul li {
+width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
+position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
+text-align: center;
+font-weight: bold;
+color: darkmagenta;
+}
+nav ul li {
+margin-bottom: 2px;
+}
+
+
+

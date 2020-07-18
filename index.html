@@ -3,16 +3,99 @@
 <html lang="en-US">
 
 <head>
+
+    <link rel="stylesheet" href="style.css">
     
-<!-- Created on 6/29/20 -->    
+    <link rel="stylesheet" href="nav.css">
+<!--
 
-            <meta charset="utf-8">
+*****************************************************************************
+Title: Erica Suarez
+Use:  To allow users to access my webpage
+Author:  Erica Suarez
+School/Term:  University of Missouri, Summer Term 2020
+Developed: June 29, 2020
+Tested:  July 17, 2020; Passed on Chrome browser.
+******************************************************************************
 
-            <title>Page Title</title>
+-->      
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Erica Suarez</title>
+
+ <style>
+* {
+    color: darkslateblue;
+  }
+   
+
+.topnav {
+  overflow: hidden;
+  background-color: floralwhite;
+  border-style: double
+}
+
+.topnav a {
+  float: left;
+  color: mediumvioletred;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color:  #00cccc;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: floralwhite;
+  color: mediumvioletred;
+} 
+     * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+    clear: both;} 
+</style>
+    
 </head>
-
+    
+ 
 <body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="background.html">Background</a>
+        <a href="reflection.html">Reflection</a>
+        <a href="resume.html">Resume</a>
+            <div class="dropdown">
+                 <button class="dropbtn">Experience
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-content">
+                    <a href="#">Goal 1</a>
+                    <a href="#">Goal 2</a>
+                    <a href="#">Goal 3</a>
+                </div>
+                </div>
+        <a href= "Contact.html">Contact</a>                                             
+      </div>
+    
 <h1>Erica Suarez</h1>
 
 <h3>Welcome Statement</h3>
@@ -66,13 +149,12 @@ Master of Science in Learning Technologies and Design
 </blockquote>
 
     
-<img src="images/finalheadshot.jpg" alt= "headshot">    
+<img src="images/finalheadshot2.jpg" alt= "headshot">    
     
     
 <footer>
   <p>Created by Erica Suarez</p>
-  <p>Contact information: <a href="mailto:eskg6@umsystem.edu">
-  eskg6@umsystem.edu</a></p>
+  <p>Contact information: <a href="mailto:eskg6@umsystem.edu">eskg6@umsystem.edu</a></p>
   <p>Copyright @ June 26, 2020.</p>
 </footer>
    

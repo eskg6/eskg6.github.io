@@ -1,6 +1,7 @@
 body {
     background-color: floralwhite
 }
+
 /*
 *****************************************************************************
 Title:  Style
@@ -11,7 +12,6 @@ Developed: June 29, 2020
 Tested:  July 13, 2020; Passed on Chrome browser.
 ******************************************************************************
  */ 
-
 h1 { color: #00cccc; font-size: xx-large; font-style: italic; border-style: double; text-align: center; background-color: floralwhite} 
 h3 { color: mediumpurple; font-size: large; }
 p { color: mediumvioletred; }
@@ -26,6 +26,8 @@ p {margin: 15px;}
 .left { text-align: left; }
 .center { text-align: center; }
 .justify { text-align: justify; } 
+
+
 
 footer {
     border-top: double;
@@ -55,3 +57,29 @@ footer a:focus {
 img {
   float: none; padding :10px; margin: 20px;
 }
+
+@media only screen and (max-width: 640px) {
+	header {
+		position: relative;
+        height: 40px;
+        display: block;
+        background-color: cadetblue;
+        width: 100%;        
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+    clear: both;}

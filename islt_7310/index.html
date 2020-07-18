@@ -15,12 +15,13 @@ Use:  To allow users to access my webpage
 Author:  Erica Suarez
 School/Term:  University of Missouri, Summer Term 2020
 Developed: June 29, 2020
-Tested:  July 13, 2020; Passed on Chrome browser.
+Tested:  July 17, 2020; Passed on Chrome browser.
 ******************************************************************************
 
 -->      
 
-            <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
             <title>Erica Suarez</title>
 
@@ -28,6 +29,7 @@ Tested:  July 13, 2020; Passed on Chrome browser.
 * {
     color: darkslateblue;
   }
+   
 
 .topnav {
   overflow: hidden;
@@ -52,9 +54,26 @@ Tested:  July 13, 2020; Passed on Chrome browser.
 .topnav a.active {
   background-color: floralwhite;
   color: mediumvioletred;
-}  
+} 
+     * {
+  box-sizing: border-box;
+}
 
-    </style>
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+    clear: both;} 
+</style>
+    
 </head>
     
  

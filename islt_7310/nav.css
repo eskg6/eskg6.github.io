@@ -79,3 +79,19 @@ Tested:  July 13, 2020; Passed on Chrome browser.
   display: block;
 }
 
+@media only screen and (max-width: 640px) {
+	header {
+		position: relative;
+        height: 40px;
+        display: block;
+        background-color: cadetblue;
+        width: 100%;        
+
+	}
+#hamburger &#9776 {
+		display: inline-block;
+        padding-left: 20px;
+        width: 26px;
+        float: left;
+        font-size: 2em;
+	}

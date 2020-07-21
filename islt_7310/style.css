@@ -53,6 +53,18 @@ footer a:active {
 footer a:focus {
  color: darkorange;
 }
+footer {
+    background-image: url(images/footer5.jpg); max-width: 100%;
+    background-position: left top;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-size: cover; 
+}
+footer img {
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px
+}
 
 img {
   float: none; padding :10px; margin: 20px;

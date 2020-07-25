@@ -1,10 +1,12 @@
 @font-face {
-    font-family: "Sacramento-Regular";
-    src: url("Sacramento-Regular.ttf"); 
+    font-family: "Sacramento";
+    font-style: normal;
+    font-weight: 400; 
+    src: url(http://themes.googleusercontent.com/static/fonts/sacramento/v1/WFDkXpubrEwopJnSlHV6CC3USBnSvpkopQaUR-2r7iU.ttf);
 }
 
 body {
-    background-color: floralwhite
+    background-color: #fffaf0;
 }
 
 /*
@@ -17,15 +19,16 @@ Developed: June 29, 2020
 Tested:  July 13, 2020; Passed on Chrome browser.
 ******************************************************************************
  */ 
-h1 { color: mediumpurple; font-size: xx-large; font-family: "Sacramento-Regular"; font-style: bold; border-style: double; text-align: center; background-color: floralwhite} 
-h3 { color: mediumpurple; font-size: large; }
-p { color: mediumvioletred; }
+h1 { color:	#9370db; font-size: xx-large; font-family: "Sacramento"; font-style: normal; border-style: double; text-align: center; background-color: #fffaf0} 
+h3 { color: 	#9370db; font-size: large; }
+h4 { color: 	#800080; font-size: normal; }
+p { color: #c71585; }
 
 p {margin: 15px;}
 
 .tab { margin-left: 50px; }
 
-* { color: mediumvioletred; font-family: Arial, Helvetica, sans-serif;}
+* { color: #c71585; font-family: Arial, Helvetica, sans-serif;}
 
 .right { text-align: right; } 
 .left { text-align: left; }
@@ -33,40 +36,41 @@ p {margin: 15px;}
 .justify { text-align: justify; } 
 
 
+/*Footer*/ 
 
 footer {
     border-top: double;
     padding:5px; 
 } 
 
-footer p { color: rebeccapurple; font-size: 13px; } 
+footer p { color: #800080; font-size: 13px; } 
 
 footer a:link {
- color: hotpink;
+ color: #ff69b4;
 }
 footer a:visited {
- color: saddlebrown;
+ color: #a0522d;
 }
 footer a:hover {
- color: limegreen;
+ color: #32cd32;
  text-decoration: none;
  font-size: 10px
 }
 footer a:active {
- color: mediumslateblue;
+ color: #7b68ee;
  }
 footer a:focus {
- color: darkorange;
+ color: #ff8c00;
 }
 footer {
     background-image: url(images/footer5.jpg); max-width: 100%;
     background-position: left top;
     background-repeat: no-repeat; 
-    background-size: contain;
     background-size: cover; 
 }
 footer img {
     float: left;
+    font-size: 30px;
     margin-top: 15px;
     margin-bottom: 10px
 }

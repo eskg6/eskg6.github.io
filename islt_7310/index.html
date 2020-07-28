@@ -15,7 +15,7 @@ Use:  To allow users to access my webpage
 Author:  Erica Suarez
 School/Term:  University of Missouri, Summer Term 2020
 Developed: June 29, 2020
-Tested:  July 17, 2020; Passed on Chrome browser.
+Tested:   July 27, 2020; Passed on Chrome and Firefox browsers.
 ******************************************************************************
 
 -->      
@@ -28,37 +28,8 @@ Tested:  July 17, 2020; Passed on Chrome browser.
  <style>
 * {
     color: mediumvioletred;
-  }
-   
-
-.topnav {
-  overflow: hidden;
-  background-color: floralwhite;
-  border-style: double
-}
-
-.topnav a {
-  float: left;
-  color: mediumvioletred;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.topnav a:hover {
-  background-color:  #00cccc;
-  color: white;
-}
-
-.topnav a.active {
-  background-color: floralwhite;
-  color: mediumvioletred;
-} 
-     * {
-  box-sizing: border-box;
-}
-
+  }    
+        
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
@@ -78,60 +49,74 @@ Tested:  July 17, 2020; Passed on Chrome browser.
     
  
 <body>
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="background.html">Background</a>
-        <a href="reflection.html">Reflection</a>
-        <a href="resume.html">Resume</a>
-            <div class="dropdown">
-                 <button class="dropbtn">Experience
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                    <div class="dropdown-content">
-                    <a href="experience.html/#section1">Goal 1</a>
-                    <a href="experience.html/#section2">Goal 2</a>
-                    <a href="experience.html/#section3">Goal 3</a>
-                </div>
-                </div>
-        <a href= "contact.html">Contact</a>                                             
-      </div>
+<nav>
+        <a href="#" id="menu_icon"></a>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            
+            <li><a href="experience.html">Experience▾</a>
+                <ul id="drop">
+                    <li><a href="experience.html#section1">Florida</a></li>
+                    <li><a href="experience.html#section2">Collegeboard</a></li>
+                    <li><a href="experience.html#section3">Connecticut</a></li>
+                </ul>            </li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+<br>
+<br>
+<br>
+<br>
     
 <h1>Erica Suarez</h1>
+<br>
 
 <h3>Welcome Statement</h3>
-<p>I have been a Social Studies teacher for 14 years, in both Florida and Connecticut. I’ve taught a variety of subjects including History, Geography, Economics, Psychology and Sociology and different levels of difficulty and exceptionalities. 
-    
+<p>I have been a Social Studies teacher for 14 years, in both Florida and Connecticut. I’ve taught a variety of subjects including History, Geography, Economics, Psychology and Sociology and different levels of difficulty and exceptionalities.     
 </p>
+
+<br>
     
 <h3>A Little Bit About Me</h3>    
 <p>This is my first semester at the University of Missouri and I chose this Master’s program because I want to be able to support my students the best that I can. I have absolutely no web application/development training or experience, so this is my first time learning about this topic. My expectation for the course is to learn how to create a website from scratch and by doing so, have a better understanding of the development process when using technology in the classroom. When I am not teaching, I have finally gotten back into the habit of reading (yay teaching from home!) and spending time with my family: husband, 4-year-old son, and dog. If I am feeling especially motivated, I love crafting- usually something from Pinterest. 
-
 </p>
 
+<br>
+    
 <h3>Degrees and Certifications</h3>
 
-    <div class="row">
-    <div class="column" style="background-color: floralwhite;">
     <h3> Degrees</h3>
-        <ul>
+      <figure>
+        <figcaption>Post-secondary Education</figcaption>
+<table>
+    <thead>
+        <tr>
+    <th class="left"> Degree</th>
+    <th>University</th>
+    <th>Date</th>
+            </tr>
+    </thead>
+<tbody>
+    <tr>
+    <td class="left">Bachelor of Science in Social Studies Education</td>
+    <td>Florida International University Miami, FL</td>
+    <td>May 2006</td>
+    </tr>
+     <tr>
+    <td class="left">Master of Science in Learning Technologies</td>
+    <td>University of Missouri Columbia, MO</td>
+    <td>May 2022</td>
+    </tr>
+    </tbody>
+</table>
+</figure>    
+        
 
-            <li>Florida State University: Tallahassee, FL  8/2002- 12/2003
-                Major in Social Studies Education
-            </li>
-
-            <li>Florida International University: Miami, FL 1/2004- 5/2006
-                Bachelor of Science in Social Studies Education
-            </li>
-
-            <li>University of Missouri: Columbia, MO 6/2020- expected graduation date 2022
-                Master of Science in Learning Technologies and Design
-            </li>
-
-        </ul>
-  </div>
-    
-  <div class="column" style="background-color:floralwhite;">
-    <h3>Certifications</h3>
+ <h3>Certifications</h3>
         <ul>
 
             <li>Connecticut Department of Education. Provisional Educator’s Certification: History and Social Studies, Grades 7 through 12. Educator ID Number 7902927886. Valid 4/10/2014- 4/09/2022.
@@ -141,10 +126,10 @@ Tested:  July 17, 2020; Passed on Chrome browser.
             </li>
 
       </ul>
-</div>    
-</div>
 
-
+<br>
+<br>
+    
 <div style="border: double mediumpurple">Favorite Quote or Saying</div>    
 
 <p>One of my favorite quotes is from "Rosie the Riveter"- created by J.Howard Miller, produced for Westinghouse/The War Production Co-Ordinating Committee, 1942,  as found in the National Archives</p>
@@ -160,9 +145,9 @@ Tested:  July 17, 2020; Passed on Chrome browser.
             
 <footer>
   <p>Created by Erica Suarez</p>
-  <img src="images/email2.png" alt= "email">
+    <div class="zoom"><img src="images/email2.png" alt= "email"></div>
   <a href="mailto:eskg6@umsystem.edu">eskg6@umsystem.edu</a>
-  <img src="images/phone3.png" alt= "phone">
+    <div class="zoom"><img src="images/phone3.png" alt= "phone"></div>
   <p>1+888-888-8888</p>     
  <p>Copyright @ June 26, 2020.</p>              
 </footer>

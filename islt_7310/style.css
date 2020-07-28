@@ -63,7 +63,7 @@ footer a:focus {
  color: #ff8c00;
 }
 footer {
-    background-image: url(images/footer5.jpg); max-width: 100%;
+    background-image: url(images/footer5.jpg); max-width: 100%; max-height: none;
     background-position: left top;
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -74,6 +74,7 @@ footer img {
     margin-top: 15px;
     margin-bottom: 10px
 }
+.zoom:hover {transform: scale(1.2);}
 
 img {
   float: none; padding :10px; margin: 20px;

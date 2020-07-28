@@ -17,30 +17,7 @@
  <style>
 div {text-align: center;}
 
-.topnav {
-  overflow: hidden;
-  background-color: floralwhite;
-  border-style: double
-}
 
-.topnav a {
-  float: left;
-  color: mediumvioletred;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.topnav a:hover {
-  background-color:  #00cccc;
-  color: white;
-}
-
-.topnav a.active {
-  background-color: floralwhite;
-  color: mediumvioletred;
-}  
      
 .footer {
   background-image: url(images/footer5.jpg);
@@ -54,50 +31,55 @@ Use:  To allow users to access my resume
 Author:  Erica Suarez
 School/Term:  University of Missouri, Summer Term 2020
 Developed: June 29, 2020
-Tested:  July 17, 2020; Passed on Chrome browser.
+Tested:   July 27, 2020; Passed on Chrome and Firefox browsers.
 ******************************************************************************
 -->         
     
-        </head>
+</head>
 
-        <body>  
+<body>  
+    
+    <nav>
+        <a href="#" id="menu_icon"></a>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
             
-<div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="background.html">Background</a>
-        <a href="reflection.html">Reflection</a>
-        <a href="resume.html">Resume</a>
-            <div class="dropdown">
-                 <button class="dropbtn">Experience
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                    <div class="dropdown-content">
-                    <a href="experience.html/#section1">Goal 1</a>
-                    <a href="experience.html/#section2">Goal 2</a>
-                    <a href="experience.html/#section3">Goal 3</a>
-                </div>
-                </div>
-        <a href= "contact.html">Contact</a>                                             
- </div> 
+            <li><a href="experience.html">Experience▾</a>
+                <ul id="drop">
+                    <li><a href="experience.html#section1">Florida</a></li>
+                    <li><a href="experience.html#section2">Collegeboard</a></li>
+                    <li><a href="experience.html#section3">Connecticut</a></li>
+                </ul>            </li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+<br>
+<br>
             
 <h1>Professional Resume</h1>
             
 <div style="text-align: center">   
     <p> <a href="docs/suarezresume.pdf">Resume</a> </p>
-    <embed src="https://youtube.com/embed/8W5BmXVHpT4" width "280" height "30"> 
-</div>  
-                     
+    <iframe width="420" height="315"
+    src="https://youtube.com/embed/8W5BmXVHpT4">
+    </iframe>
+</div>                   
            
-            
+<br>
+<br>
+ 
 <footer>
-  <p>Created by Erica Suarez</p>
-  <img src="images/email2.png" alt= "email">
+ <p>Created by Erica Suarez</p>
+    <div class="zoom"><img src="images/email2.png" alt= "email"></div>
   <a href="mailto:eskg6@umsystem.edu">eskg6@umsystem.edu</a>
-  <img src="images/phone3.png" alt= "phone">
+    <div class="zoom"><img src="images/phone3.png" alt= "phone"></div>
   <p>1+888-888-8888</p>     
  <p>Copyright @ June 26, 2020.</p>              
 </footer>
             
-        </body>
+</body>
 
 </html>
